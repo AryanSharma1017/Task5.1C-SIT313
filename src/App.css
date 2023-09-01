@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: whitesmoke;
+  height: 100vh;
+}
+
+h3{
+  background-color: grey;
+  font-size:x-large;
+  margin: 0px;
+  position:relative;
+  display: flex;
+  color: black;
+  padding: 0px 20px;
+  transition: all 0.7s ease;
+}
+
+h3:hover{
+  color: whitesmoke;
+  background-color: black;
+}
+
+.App>div{
+  padding: 20px 0px;
+}
+
+.types{
+  font-size: larger;
+}
