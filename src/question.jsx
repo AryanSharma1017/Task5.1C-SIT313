@@ -1,6 +1,6 @@
 import './article.css';
 
-const Question_part = () => {
+const QuestionPart = () => {
     return(
        <div className='Article'>
         <div className='Article2'>
@@ -30,4 +30,4 @@ const Question_part = () => {
     )
 }
 
-export default Question_part;
+export default QuestionPart;
