@@ -15,8 +15,8 @@ function App() {
       </div>
 
       <h3>What Do you want to Ask or Share</h3>
-      {post_type === 'first' && <Question_part/>}
-      {post_type === 'second' && <Article_part/>}
+      {post_type === 'first' && <QuestionPart/>}
+      {post_type === 'second' && <ArticlePart/>}
       
 
     </div>
