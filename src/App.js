@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import Article_part from './article';
-import Question_part from './question';
+import ArticlePart from './article';
+import QuestionPart from './question';
 
 function App() {
   const [post_type,set_post] = useState('');
