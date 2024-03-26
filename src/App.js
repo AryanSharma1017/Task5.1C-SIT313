@@ -13,7 +13,6 @@ function App() {
         Select Post Type:  Question <input type="radio" value='first' name="Selection" checked={post_type === 'first'} onChange={() => set_post('first')}/> 
         Article <input type="radio" value='second' name="Selection" checked={post_type === 'second'} onChange={() => set_post('second')}/>
       </div>
-      <h2></h2>
       <h3>What Do you want to Ask or Share</h3>
       {post_type === 'first' && <QuestionPart/>}
       {post_type === 'second' && <ArticlePart/>}
