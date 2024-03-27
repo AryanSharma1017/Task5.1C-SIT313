@@ -30,6 +30,7 @@ const ArticlePart = () => {
         </div>
 
         <button>POST</button>
+        <button>UPLOAD</button>
        </div> 
     )
 }
